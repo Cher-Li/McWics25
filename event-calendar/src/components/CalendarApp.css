@@ -1,0 +1,77 @@
+.CalendarApp {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calendar {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .event-text {
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .event-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-popup-time,
+  .event-popup-btn,
+  .close-events-popup {
+    margin-top: 10px;
+  }
+  
+  .event-popup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-events-popup {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .event {
+    margin: 10px 0;
+  }
+  
+  .event-button {
+    cursor: pointer;
+    color: blue;
+  }
