@@ -243,9 +243,9 @@ const CalendarApp = () => {
   };
 
   return (
-    <div className="CalendarApp">
-      <div className="calendar">
-        <h1 className="heading">Calendar</h1>
+    <div className="January">
+      <div className="January">
+        <h1 className="heading">January</h1>
         <div className="weekdays">
           <span>Sunday</span>
           <span>Monday</span>
