@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import 
+import CalendarApp from './Components/CalendarApp.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="calendar">
-      <CalendarWebsite/>
+    <div className="App">
+      <header className="App-header">
+        <h1>Calendar App</h1>
+      </header>
+      <CalendarApp />
     </div>
   );
-}
+};
 
 export default App;
